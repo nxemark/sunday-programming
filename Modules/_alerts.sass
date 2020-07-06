@@ -1,0 +1,24 @@
+@import "helpers/helpers-dir"
+
+.alert
+    border: 1px solid $brand-black
+    border-radius: 10px
+    width: 50%
+    margin: 10px 0
+    padding: 15px
+    text-transform: uppercase
+    float: left
+    background-color: #ffffff
+
+
+.success
+    @extend .alert
+    background-color: #4caf50
+
+.warning
+    @extend .alert
+    background: #ffcc33
+
+.oh-dang
+    @extend .alert
+    background-color: red
